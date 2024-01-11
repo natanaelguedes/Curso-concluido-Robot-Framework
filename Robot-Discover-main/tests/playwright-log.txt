@@ -1,0 +1,56 @@
+{"level":30,"time":"2024-01-11T12:54:07.037Z","pid":18092,"hostname":"NATANAEL","msg":"Listening on 63984"}
+{"level":30,"time":"2024-01-11T12:54:07.134Z","pid":18092,"hostname":"NATANAEL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-11T12:54:07.134Z","pid":18092,"hostname":"NATANAEL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-11T12:54:07.137Z","pid":18092,"hostname":"NATANAEL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-11T12:54:07.137Z","pid":18092,"hostname":"NATANAEL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-11T12:54:07.145Z","pid":18092,"hostname":"NATANAEL","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-01-11T12:54:07.153Z","pid":18092,"hostname":"NATANAEL","msg":"Error of node method  newBrowser"}
+================= Original suppressed error =================
+browserType.launch: Executable doesn't exist at C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\playwright-core\.local-browsers\firefox-1429\firefox\firefox.exe
+╔═════════════════════════════════════════════════════════════════════════╗
+║ Looks like Playwright Test or Playwright was just installed or updated. ║
+║ Please run the following command to download new browsers:              ║
+║                                                                         ║
+║     npx playwright install                                              ║
+║                                                                         ║
+║ <3 Playwright Team                                                      ║
+╚═════════════════════════════════════════════════════════════════════════╝
+    at _newBrowser (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9846:48)
+    at newBrowser (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10310:33)
+    at PlaywrightServer.newBrowser (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10603:34)
+    at handleUnary (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17) {
+  name: 'Error'
+}
+=============================================================
+{"level":30,"time":"2024-01-11T12:54:07.180Z","pid":18092,"hostname":"NATANAEL","msg":"Start of node method takeScreenshot"}
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at takeScreenshot (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8653:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10603:34)
+    at handleUnary (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2024-01-11T12:54:07.181Z","pid":18092,"hostname":"NATANAEL","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9968:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10588:59)
+    at PlaywrightServer.setTimeout (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10838:57)
+    at handleUnary (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2024-01-11T12:54:07.235Z","pid":18092,"hostname":"NATANAEL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-11T12:54:07.235Z","pid":18092,"hostname":"NATANAEL","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9968:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10588:59)
+    at PlaywrightServer.setTimeout (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10838:57)
+    at handleUnary (C:\Users\natan\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2024-01-11T12:54:07.263Z","pid":18092,"hostname":"NATANAEL","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-11T12:54:07.263Z","pid":18092,"hostname":"NATANAEL","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-11T12:54:07.297Z","pid":18092,"hostname":"NATANAEL","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-01-11T12:54:07.297Z","pid":18092,"hostname":"NATANAEL","msg":"End of node method closeAllBrowsers"}
